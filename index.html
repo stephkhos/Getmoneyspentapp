@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Money Spent App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Get Money Spent App</h1>
+
+    <div class="input-section">
+      <label for="budget">Budget:</label>
+      <input type="number" id="budget" placeholder="Enter budget">
+
+      <label for="keyboards">Keyboard Prices (comma-separated):</label>
+      <input type="text" id="keyboards" placeholder="e.g., 50,30,20">
+
+      <label for="drives">Drive Prices (comma-separated):</label>
+      <input type="text" id="drives" placeholder="e.g., 40,25,30">
+
+      <button onclick="calculateMoneySpent()">Calculate</button>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
