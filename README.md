@@ -1,0 +1,1 @@
+To create a simple HTML, CSS, and JavaScript visualization for the getMoneySpent function, we can create a web page where users can input the budget, keyboard prices, and drive prices. The result will display the maximum amount of money that can be spent.
